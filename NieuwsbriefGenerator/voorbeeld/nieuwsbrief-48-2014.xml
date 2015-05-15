@@ -1,0 +1,56 @@
+﻿<nieuwsbrief jaar="2014" week-nummer="48">
+
+	<inleiding-content>
+	<p>Het heeft even geduurd, maar nu gaat ook Thalia met de tijd mee! Zie hier het prototype voor de nieuwsbrief. Tot de nieuwe huisstijl er is zullen wij een tijdelijke stijl gebruiken voor de nieuwsbrief. Heb je opmerkingen of ideeën over de nieuwe stijl van de nieuwsbrief? Laat onze <a href="mailto:huisstijl@thalia.nu?SUBJECT=Nieuwsbrief">huisstijlcommissie</a> vooral weten wat je hiervan vindt zodat wij iets met deze informatie kunnen doen!.</p>
+	</inleiding-content>
+	
+	<evenementen>
+		<evenement 
+			wat="Proud 2B Faudt"
+			Waar="Danscafe Billabong, van Welderenstraat 126 te Nijmegen."
+			wanneer="Woensdag 26 november, 22:00"
+			datumagenda="26 november">
+			Woensdag 26 november is het weer zover! Thalia organiseert samen met de studieverenigingen CognAC (kunstmatige intelligentie), Sigma (scheikunde en moleculaire levenswetenschappen), GSV Excalibur (geschiedenis) en Umoja (culturele antropologie en ontwikkelingsstudies) jaarlijks een spetterend fout feest. Trek je faudtste pakje dus uit de kast en maak zelfs kans op prijzen.<br/>
+			
+			Voor Thalianen is de entree op vertoning van je collegekaart helemaal GRATIS, i.t.t. wat op <a href="https://www.facebook.com/events/1493490877591924/">facebook</a> staat. Van 22:00 uur tot 23:00 uur krijg je twee drankjes voor de prijs van één, dus wees er op tijd bij. Tot woensdag 26 november in de Billabong!
+		</evenement>
+		
+		<evenement 
+			banner="banner-commissieborrel.png"
+			wat="Commissieborrel"
+			Waar="Noordkantine"
+			wanneer="Donderdag 27 november, 16:00 - 21:00"
+			datumagenda="27 november">
+			<p>Wil je weten wie er zoal in de borrelcommissie zitten? Ben je benieuwd wat de onderwijscommissie nou precies doet? Heb je stiekem toch interesse in de evenementencommissie? Kom dan gezellig een drankje nuttigen met de verscheidene commissieleden en vraag ze het hemd van het lijf!</p>
+		</evenement>
+		
+		<evenement 
+			wat="Poolen"
+			Waar="House of Billiards Nijmegen"
+			wanneer="Dinsdag 2 december, 20:00-23:00"
+			datumagenda="2 december"
+			kosten="5"
+			prijs="1"
+			aanmelddeadline="30 november">
+			<p>
+			Of je nou houdt van pokéballen, voetballen, linker-ballen of poolballen, poolen kan iedereen! En natuurlijk kan jij het net iets beter dan alle anderen. Kom dus allen gezellig met Thalia mee poolen op 2 december tussen 20:00 en 23:00 en win een leuke prijs.<br/></p>
+			<p>
+			Aanmelden kan via facebook of evenementen@thalia.nu, uiterlijk 30 november.
+			</p>
+		</evenement>
+		
+		<evenement 
+			titel="Olympus B-Film"
+			wat="B-Film van Olympus: Team America."
+			Waar="Zuidkantine"
+			wanneer="Woensdag 26 november, 19:00-22:00"
+			datumagenda="26 november"
+			prijs="1"
+			inagenda="false">
+			De B-film van november: Team America! Kom gezellig wat biertjes drinken en een leuke film kijken. Wellicht een leuke afsluiter voor je avond, of juist een voorbereiding op een feest dat daarna komt! Het is mogelijk eten te bestellen.
+		</evenement>
+
+	</evenementen>
+
+
+</nieuwsbrief>

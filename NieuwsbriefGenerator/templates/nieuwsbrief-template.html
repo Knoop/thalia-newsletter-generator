@@ -1,0 +1,115 @@
+<html>
+	<style>
+	a{
+		color: #E61D72;
+	}
+	div{
+		overflow: hidden;
+	}
+	body {
+		background-color: #F0F0F0;
+		font-family: Calibri;
+	}
+	h2 {
+		color: #E61D72;
+	}
+	#leesbaar{
+		font-size: 11;
+		font-style: italic;
+	}
+	#nieuwsbrief
+	{
+	  background-color: #FFFFFF;
+	  width: 700px ;
+	  margin-left: auto ;
+	  margin-right: auto ;
+	}
+	#content {
+	  margin: 20px;
+	}
+	#event-wrapper {
+    overflow: auto;
+	}
+	#basic-information {
+		width: 200px;
+		float:right; 
+		border-left-style: solid;
+		border-color: #E61D72;
+		border-width: 2px;
+		padding: 10px;
+		height: auto;
+		
+	}
+	#description {
+		overflow: auto;
+	}
+	#agenda-lijst {
+		width: 50%;
+		float:left;
+		
+	}
+	.evenement-banner
+	{
+		width: 660px;
+		
+	}
+	.evenement
+	{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.evenement-scheiding{
+		background-color: #E61D72;
+		height: 2px;
+		width: 660px;
+		margin-left: auto ;
+		margin-right: auto ;
+		
+	}
+	
+	</style>
+	<head>
+	<title>Thalia nieuwsbrief week %week-nummer%</title>  
+	</head>
+	<body>
+		<div id="nieuwsbrief">
+			<!-- banner, altijd hetzelfde -->
+			<a href="http://www.thalia.nu"><img src="http://www.thalia.nu/img/n/banner.png" alt=""></a>
+			<div id="content">
+				<!-- Kun je niet lezen? -->
+				<p id="leesbaar">Kun je deze nieuwsbrief niet goed lezen? Klik dan <a href="http://www.thalia.nu/nieuwsbrief/%week-nummer%/nieuwsbrief.html">hier</a> om de nieuwsbrief online te bekijken.</p> 
+				
+				<!-- Inleidende tekst -->
+				<div id="inleiding">
+					<h2>Nieuwsbrief week %week-nummer%</h2> 
+					<h5>Beste Thalianen,</h5>
+					%inleiding-content%
+					<p>Namens jullie bestuur,</p>
+					<p>Rick Lukassen<br><i>Secretaris, 24e bestuur der Thalia, 2014-2015</i></p>
+				</div>
+				
+				<!-- agenda van alles wat er de komende 2 weken gaat gebeuren. De agenda is in tweeën gesplitst.-->
+				<div id="agenda">				
+					<h2>Agenda</h2>
+					<div id="agenda-lijst">
+						<ul>
+							%agenda-lijst-links%
+						</ul>
+					</div> 
+					<div id="agenda-lijst">
+						<ul>
+							%agenda-lijst-rechts%
+						</ul>
+					</div>
+					
+				</div>
+					
+				<!-- Alle evenementen -->
+				<div id="evenementen">
+					%evenementen%					
+				</div>			
+			</div>
+			<a href="http://www.topicus.nl/"><img src="http://www.thalia.nu/img/n/hoofdsponsor.png" alt="Topicus is hoofdsponsor van Thalia"/>
+		</div>
+	</body>
+</html>
